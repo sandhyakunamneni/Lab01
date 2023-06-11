@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Movie Table</title>
+   <style>
+      table
+       {
+        margin: auto;
+       }
+       table, th, td {
+        border: 1px solid black;
+       }
+       tr:nth-child(2)  td  img{
+            width: 250px;
+            height: 300px;
+        }
+        tr{
+            height: 100px;
+        }
+        td{
+            text-align: center;
+        }
+        tr:nth-child(3)  td:nth-child(2){
+            color: red;
+        }
+        tr:nth-child(3)  td:nth-child(3){
+            background-color: red;
+            color: white; 
+        }
+    </style>
+</head>
+
+<body>
+    <table >
+        <tr>
+            <th>The Lord of the Rings</th>
+            <th>Matrix</th>
+            <th>The Godfather</th>
+        </tr>
+        <tr>
+            <td><img src="https://m.media-amazon.com/images/I/61THa3LMb6L._SX218_BO1,204,203,200_QL40_FMwebp_.jpg" alt="The Lord of the Rings"></td>
+            <td><img src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg" alt="Matrix"></td>
+            <td><img src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg" alt="The Godfather"></td>
+        </tr>
+        <tr>
+            <td>2001</td>
+            <td>1999</td>
+            <td>1972</td>
+        </tr>
+        <tr>
+            <td> <a href="#">Imdb Link</a> </td>
+            <td> <a href="#">Imdb Link</a></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/New-imdb-logo.png" alt="imdb" width="100"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
